@@ -1,1 +1,9 @@
-My website will be a portfolio of my coding projects and education. I have coincidentally already started a portfolio website and almost finished it, but I need viewport compatible portion for smartphones and pads. My website so far is only meant to be viewed on a laptop or desktop because of the type of javascript I am using, three.js. I want to continue to use this library for the @media part of the portfolio site. The landing page will be 
+My website will be a portfolio of my coding projects and education. I have coincidentally already started a portfolio website and almost finished it, but I need viewport compatible portion for smartphones and pads. My website so far is only meant to be viewed on a laptop or desktop because of the type of javascript I am using, three.js. I want to continue to use this library for the @media part of the portfolio site. The theme I am using is a space theme so I will continue this on my mobile site as well. The landing page will be the top of the scrollable page that contains a 3D cube with my profile photo on it. The 3D cube can be moved with touch. Right below that will be my name, an introduction and a hamburger menu. The hamburger menu can be opened with touch and options to automatically scroll down to other sections will appear. Other sections include a Projects portion, education portion, and a contact info portion. The Projects section will showcase previous coding projects I have completed. If I have time, I will make these Projects have a viewable image/preview and be clickable to link to the github repo. The education portion will list my completed courses and other achievements while in school. I want to engage the viewer by using interactable elements such as the 3D cube, this will make my portfolio stand out to others, which is the appeal I want to make to potential employers.
+
+## Prospective Assets
+| Asset | Source|
+|---|---|
+| Space themed pictures | CC |
+| 3D interactable objects | three.js library |
+| Github, LinkedIn, and Email icons | CC |
+| Project previews | Taken by me |
