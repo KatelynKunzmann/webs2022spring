@@ -7,3 +7,5 @@ My website will be a portfolio of my coding projects and education. I have coinc
 | 3D interactable objects | three.js library |
 | Github, LinkedIn, and Email icons | CC |
 | Project previews | Taken by me |
+
+![photo overview](/proposal.jpg)
