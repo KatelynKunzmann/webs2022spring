@@ -15,15 +15,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="styles/style2.css" />
+    <link rel="stylesheet" href="styles/import.css" />
     <link rel="stylesheet" href="styles/menu.css" />
-    <link rel="stylesheet" href="styles/style.css" />
     <link rel="icon" href="assets/img/ethcoin.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Katelyn Kunzmann</title>
   </head>
   <body>
-    <main>
     <div id="home"></div>
     <div class="menu-container">
       <div class="outer-menu">
@@ -38,10 +36,12 @@
                 <li>
                   <a href="#home" onclick="hideMenu()">Home</a>
                 </li>
-                <li><a href="#education" onclick="hideMenu()">Education</a></li>
                 <li><a href="#projects" onclick="hideMenu()">Projects</a></li>
                 <li>
                   <a href="#codingSkills" onclick="hideMenu()">Coding Skills</a>
+                </li>
+                <li>
+                  <a href="#certificates" onclick="hideMenu()">Certificates</a>
                 </li>
               </ul>
             </div>
@@ -49,20 +49,36 @@
         </div>
       </div>
     </div>
+    <div class="page-layout">
       <nav class="hideNav">
         <div class="navbar">
           <li><a href="#home">Home</a></li>
-          <li><a href="#education">Education</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#codingSkills">Coding Skills</a></li>
+          <li><a href="#certificates">Certificates</a></li>
         </div>
       </nav>
-      <!--Home Section-->
-      <div id="home"></div>
-      <div class="title">Projects</div>
-      <!--Education Section-->
-      <div id="education"></div>
-      <div class="title">Education</div>
+
+    </div>
+    <div class="detail-container">
+      <section>
+        <!--About me section-->
+        <div class="title">About me</div>
+        <div class="content-container">
+          <p class="content">
+            I am currently a Computer Science student at the University of
+            Pittsburgh. I have a passion for learning while returning the favor
+            to help others. I was, and still am, an inquisitive person.
+            Nowadays, my yearning for learning is geared towards programming. I
+            am constantly researching and becoming enveloped in the computer
+            science world. My interests include: Crypto, DeFi, dApps, Web 3.0,
+            blockchains, NFTs, and coins. My CS unrelated hobbies are downhill
+            skateboarding, snowboarding, gems and minerals, video games, crypto
+            trading and cuddling my cat.
+          </p>
+        </div>
+      </section>
+
       <!--Projects Section-->
       <div id="projects">
         <br />
@@ -70,8 +86,12 @@
       <section id="projects">
         <div class="title">Projects</div>
         <div class="content">
-          <span style="font-size: larger; color: #091555">
+          <span style="font-size: larger;">
+            Kill Bill: Vol 1 Hypertext
           </span>
+          <br />
+          A hypertextual narrative adventure through the famous duel between
+          Lucy Liu and Uma Thurman
         </div>
         <div class="button-container">
           <a href="https://github.com/KatelynKunzmann/hypertext">
@@ -90,7 +110,20 @@
       </div>
       <section id="codingSkills">
         <div class="title">Coding Skills</div>
+        <div class="content">
+          Java
+          <br />
+          HTML/CSS <br />
+          Javascript
+        </div>
       </section>
-      </main>
-    </body>
-    </html>
+    </div>
+  </body>
+</html>
+
+<script>
+  function hideMenu() {
+    // Uncheck
+    document.getElementById("checkbox-toggle").checked = false;
+  }
+</script>

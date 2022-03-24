@@ -1,10 +1,8 @@
 body {
-  background: url("../assets/img/tealbackground.jpg") no-repeat center center
-    fixed;
-  background-size: cover;
   background-color: #00101f;
   margin: 0;
   font-family: "Lato";
+  color: white;
   font-weight: 300;
   letter-spacing: 0.022em;
 }
@@ -221,7 +219,7 @@ section {
   color: inherit;
   background: none;
   cursor: pointer;
-  padding: 80px 80px;
+  padding: 25px 80px;
   display: inline-block;
   margin: 15px 30px;
   text-transform: uppercase;
@@ -288,7 +286,7 @@ section {
 /* //All titles
 /* ///////////////////////////////// */
 .title {
-  color: #fe5c00;
+  color: white;
   font-size: 175%;
   font-weight: 300;
   letter-spacing: 0.022em;
@@ -362,7 +360,6 @@ section {
     appearance: none;
     background-color: transparent;
     border-radius: 30px;
-    color: #fe5c00;
     cursor: pointer;
     display: flex;
     align-self: center;
@@ -377,7 +374,6 @@ section {
   }
   .button:hover,
   .button:focus {
-    color: #fe5c00;
     outline: 0;
   }
   .resume-button {

@@ -1,6 +1,4 @@
 body {
-  background: url("../assets/img/tealbackground.jpg") no-repeat center center
-    fixed;
   background-size: cover;
   margin: 0;
   font-family: "Helvetica";
@@ -91,8 +89,8 @@ section {
 }
 
 .title {
-  color:#091555;
-  font-size: 200%;
+  color: aquamarine;
+  font-size: 175%;
   font-weight: bolder;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -161,12 +159,6 @@ section {
   color: white;
 }
 
-#education {
-  height: 600px;
-  width: 600px;
-  margin: 80px 40px 80px 40px;
-}
-
 #projects {
   height: 600px;
   width: 600px;
@@ -174,11 +166,6 @@ section {
 }
 
 #codingSkills {
-  height: 600px;
-  width: 600px;
-  margin: 80px 40px 80px 40px;
-}
-#home {
   height: 600px;
   width: 600px;
   margin: 80px 40px 80px 40px;
