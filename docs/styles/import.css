@@ -24,6 +24,7 @@ html {
 .img-background-container {
   display: flex;
   position: relative;
+  padding-left: 450px
 }
 
 .image-background {
@@ -32,11 +33,7 @@ html {
 }
 
 .image-profile {
-  position: absolute;
   width: 225px;
-  top: 15px;
-  left: 175px;
-  z-index: 0;
 }
 
 /* /////////////////////////////////
