@@ -24,7 +24,6 @@ html {
 .img-background-container {
   display: flex;
   position: relative;
-  padding-left: 450px
 }
 
 .image-background {
@@ -275,8 +274,17 @@ section {
 /* /////////////////////////////////
 /* //About me  
 /* ///////////////////////////////// */
-.detail-container {
-  padding-left: 250px;
+.img-background-container, .about-me, .projects, .codingSkills {
+  display: flex;
+  flex-direction: column;
+  padding-left: 275px;
+}
+
+.img-background-container {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  max-width: 50em;
+  margin: 0 auto;
 }
 
 /* /////////////////////////////////
@@ -322,8 +330,18 @@ section {
     align-items: center;
   }
 
-  .detail-container {
-    padding-left: 0;
+  .img-background-container, .about-me, .projects, .codingSkills {
+  padding-left: 5px;
+}
+
+  .img-background-container {
+    padding-bottom: 100px;
+    /* justify-content: center; */
+    /* max-width: 50em;
+    margin: 0 auto; */
+  }
+  .profile-pic {
+    display: flex;   
   }
   .icon_container {
     padding-left: 20px;
