@@ -51,25 +51,15 @@ section {
   font-family: "Helvetica";
 }
 
-#profile-pic {
+/* #profile-pic {
   position: absolute;
-  top: 20%;
+  /* top: 20%;
   left: 25%;
   width: 20%;
   margin: none;
   padding: none;
   transform: translate(-30%, -30%);
-}
-
-#header-image {
-  position: relative;
-}
-
-#header-image img {
-  width: 100%;
-  margin: none;
-  padding: none;
-}
+} */
 
 #image-text {
   position: absolute;

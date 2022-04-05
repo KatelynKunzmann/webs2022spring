@@ -32,7 +32,7 @@ html {
 }
 
 .image-profile {
-  width: 225px;
+  width: 200px;
 }
 
 /* /////////////////////////////////
@@ -96,9 +96,6 @@ nav a:hover {
 }
 main {
   margin-left: 250px;
-}
-section {
-  padding: 10px;
 }
 .navbar {
   margin-top: 0;
@@ -281,7 +278,6 @@ section {
 }
 
 .img-background-container {
-  padding-top: 100px;
   padding-bottom: 200px;
   max-width: 50em;
   margin: 0 auto;
@@ -308,11 +304,11 @@ section {
 
 @media screen and (max-width: 780px) {
   .image-profile {
-    position: absolute;
-    width: 40vw;
+    
+    /* width: 40vw;
     top: 30px;
     left: 30px;
-    z-index: 0;
+    z-index: 0; */
   }
   .hideNav {
     display: none;
@@ -335,7 +331,7 @@ section {
 }
 
   .img-background-container {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     /* justify-content: center; */
     /* max-width: 50em;
     margin: 0 auto; */
