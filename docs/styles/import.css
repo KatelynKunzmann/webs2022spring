@@ -274,7 +274,7 @@ section {
 /* /////////////////////////////////
 /* //About me  
 /* ///////////////////////////////// */
-.img-background-container, .about-me, .projects, .codingSkills {
+.img-background-container, .about-me, .projects, .codingSkills, .education{
   display: flex;
   flex-direction: column;
   padding-left: 275px;
@@ -330,7 +330,7 @@ section {
     align-items: center;
   }
 
-  .img-background-container, .about-me, .projects, .codingSkills {
+  .img-background-container, .about-me, .projects, .codingSkills, .education{
   padding-left: 5px;
 }
 
