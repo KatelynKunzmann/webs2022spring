@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+section {
+  padding: 10px;
+}
+
 /* /////////////////////////////////
 /* //Top of Page 
 /* ///////////////////////////////// */
@@ -18,12 +22,15 @@ html {
   letter-spacing: 0.022em;
   text-align: center;
   font-size: 130%;
-  color: aquamarine;
+  color: white;
 }
 
 .img-background-container {
   display: flex;
   position: relative;
+  padding-bottom: 200px;
+  max-width: 50em;
+  margin: 0 auto;
 }
 
 .image-background {
@@ -49,19 +56,19 @@ html {
 }
 
 .fa-github-square {
-  color: #091555;
+  color: aquamarine;
 }
 .fa-github-square:hover {
   color: white;
 }
 .fa-envelope {
-  color: #091555;
+  color: aquamarine;
 }
 .fa-envelope:hover {
   color: white;
 }
 .fa-linkedin {
-  color: #091555;
+  color: aquamarine;
 }
 .fa-linkedin:hover {
   color: white;
@@ -127,23 +134,6 @@ main {
   padding-bottom: 30px;
   padding-left: 20px;
   letter-spacing: 0.022em;
-}
-
-/* /////////////////////////////////
-/* //Resume button wrap
-/* ///////////////////////////////// */
-.container {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1em;
-  text-align: center;
-
-  @media (min-width: 600px) {
-    flex-direction: row;
-    justify-content: space-between;
-  }
 }
 
 /* default button */
@@ -269,22 +259,7 @@ main {
 /* End github button*/
 
 /* /////////////////////////////////
-/* //About me  
-/* ///////////////////////////////// */
-.img-background-container, .about-me, .projects, .codingSkills, .education{
-  display: flex;
-  flex-direction: column;
-  padding-left: 275px;
-}
-
-.img-background-container {
-  padding-bottom: 200px;
-  max-width: 50em;
-  margin: 0 auto;
-}
-
-/* /////////////////////////////////
-/* //All titles
+/* //////// All titles ////////////
 /* ///////////////////////////////// */
 .title {
   color: white;
@@ -295,21 +270,7 @@ main {
   margin-top: 20px;
 }
 
-.course-title {
-  font-weight: 300;
-  letter-spacing: 0.022em;
-  color: aquamarine;
-  font-size: 120%;
-}
-
 @media screen and (max-width: 780px) {
-  .image-profile {
-    
-    /* width: 40vw;
-    top: 30px;
-    left: 30px;
-    z-index: 0; */
-  }
   .hideNav {
     display: none;
   }
@@ -332,9 +293,6 @@ main {
 
   .img-background-container {
     padding-bottom: 50px;
-    /* justify-content: center; */
-    /* max-width: 50em;
-    margin: 0 auto; */
   }
   .profile-pic {
     display: flex;   
@@ -346,19 +304,19 @@ main {
     font-size: 30px;
   }
   .fa-github-square {
-    color: #fe5c00;
+    color: aquamarine;
   }
   .fa-github-square:hover {
     color: white;
   }
   .fa-envelope {
-    color: #fe5c00;
+    color: aquamarine;
   }
   .fa-envelope:hover {
     color: white;
   }
   .fa-linkedin {
-    color: #fe5c00;
+    color: aquamarine;
   }
   .fa-linkedin:hover {
     color: white;
